@@ -1,0 +1,36 @@
+name: Java CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - develop
+      - homol
+      - release-candidate
+  pull_request:
+    branches:
+      - main
+      - master
+      - develop
+      - homol
+      - release-candidate
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v2
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Build with Maven
+        run: mvn clean install
+
+      - name: Run Tests
+        run: mvn test
