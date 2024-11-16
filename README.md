@@ -28,6 +28,9 @@ Camadas da Arquitetura:
 ### Infraestructure:
   - Repository: É responsável por lidar com todas as interações externas ao sistema, como o acesso a bancos de dados, comunicação com APIs externas, manipulação de arquivos, entre outro.
 
+![image](https://github.com/user-attachments/assets/2a098a0c-61ad-451d-aca7-59c92484a5b2)
+
+
 ## Testes Unitários
 
 - Cobertura de Casos de Uso: Teste os principais casos de uso do sistema, como a criação de um novo agendamento, a validação de disponibilidade de horário, entre outros.
@@ -40,11 +43,19 @@ Camadas da Arquitetura:
 
 **Para verificar o Coverage do projeto**, basta acessar o arquivo: **`\target\site\index.html`** 
 
+![image](https://github.com/user-attachments/assets/9f69422f-34db-4e2e-9622-8a7610076136)
+
+
 - Foram criados os testes unitários para melhor cobertura de teste segundo JaCoCo foram cobertos 98 of 1.56493% do projeto em testes unitários.
 
 - Criado também na esteira o step de Continuous Integration (CI) onde todo push nas branchs develop, homol e master será executado os testes.
 
   https://github.com/gabrielfellone/TechSub---Clean-Architecture/actions
+  
+
+  ![image](https://github.com/user-attachments/assets/f734ff7b-44ca-42ee-8e7f-eb1d782085f3)
+
+
 
 ---
 
@@ -58,7 +69,7 @@ Camadas da Arquitetura:
 
 ---
 
-## Configurar e testar
+## Configurar e testar localmente
 
 
 O arquivo **init.sql** é a inicialização das tabelas, já com dados criados. Será criado assim que subir o container.
@@ -81,6 +92,19 @@ Caso apresente o seguinte erro " ERROR: duplicate key value violates unique cons
 
 ---
 
+## Deploy da aplicação em Nuvem
+
+### Foi deployado o projeto no Render (aplicação e banco de dados) assim como apresentado na aula
 
 
-  
+Url da aplicação:
+https://techsub-clean-architecture.onrender.com
+
+Url do banco de dados:
+postgresql://postgres_xgz1_user:6Ty8sV268IquTheB2DTYowIKbLIfDZoR@dpg-cssg3ji4esus739mgkb0-a/postgres_xgz1
+
+![image](https://github.com/user-attachments/assets/7be137b3-3df8-4dfd-a9ca-e65d1502be2e)
+
+![image](https://github.com/user-attachments/assets/93ed1158-1008-4306-8a4c-1bb30b0a7533)
+
+---
