@@ -61,7 +61,7 @@ Camadas da Arquitetura:
 
 ## Desenho e Arquitetura do Projeto
 
-- [**Desenho da solução** ]([https://miro.com/app/board/uXjVLY1xlkY=/?share_link_id=477520251858](https://miro.com/app/board/uXjVLEUV4GQ=/?share_link_id=572186899307))
+- [**Desenho da solução** ](https://miro.com/app/board/uXjVLEUV4GQ=/?share_link_id=386946169252)
 
 
 ---
